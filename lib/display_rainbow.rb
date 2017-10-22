@@ -1,6 +1,3 @@
 def display_rainbow (rainbow)
-  rain_arr = []
-  rainbow.each {|x| rain_arr << "#{x[0].upcase}: #{x}"}
-  puts rain_arr.join(", ")
-  rainbow
+  puts "R: #{color_list[0]}, O: #{color_list[1]}, Y: #{color_list[2]}, G: #{color_list[3]}, B: #{color_list[4]}, I: #{color_list[5]}, V: #{color_list[6]}"
 end
