@@ -4,5 +4,3 @@ def display_rainbow (rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'ind
   puts rain_arr.join(", ")
   rainbow
 end
-
-display_rainbow
